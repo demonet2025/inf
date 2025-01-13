@@ -1,0 +1,932 @@
+.banner {
+    background: url("./MC-home-banner-bg@2x.jpg") no-repeat;
+    padding: 90px 0 142px 0;
+    color: rgba(255, 255, 255, 0.9);
+    background-size: 100% 100%
+}
+
+.banner h1 {
+    font-size: 80px;
+    line-height: 88px;
+    margin-bottom: 24px;
+    color: #fff
+}
+
+.banner p.des {
+    width: 640px;
+    max-width: 100%;
+    line-height: 30px;
+    margin-bottom: 80px
+}
+
+.banner .btn.btn-bd-wt.ic-arw {
+    margin-left: 16px
+}
+
+.banner .btn.btn-bl {
+    line-height: 1;
+    padding-top: 13px;
+    vertical-align: -9px
+}
+
+.banner .btn.btn-bl b {
+    font-size: 18px
+}
+
+.banner .btn.btn-bl b:lang(tw) {
+    display: inline-block;
+    margin-bottom: 3px
+}
+
+.banner .btn.btn-bl span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.banner .wrap {
+    align-items: center
+}
+
+.banner .left {
+    width: 60%
+}
+
+.banner .right {
+    max-width: 100%
+}
+
+.banner .ios-device a {
+    text-align: left;
+    align-items: center;
+    background: #000000;
+    display: flex;
+    padding: 12px;
+    margin: 24px auto 0;
+    justify-content: center;
+    font-size: 0;
+    width: 190px;
+    border-radius: 8px 8px 8px 8px;
+    max-width: 100%;
+    color: #fff
+}
+
+.banner .ios-device a span {
+    line-height: 1;
+    font-size: 14px;
+    display: block
+}
+
+.banner .ios-device a b {
+    line-height: 1;
+    font-size: 26px
+}
+
+.banner .ios-device a b:lang(tw),
+.banner .ios-device a b:lang(jp),
+.banner .ios-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.banner .and-device {
+    display: flex;
+    justify-content: space-between
+}
+
+.banner .and-device a {
+    align-items: center;
+    text-align: left;
+    background: #000000;
+    display: flex;
+    padding: 12px;
+    margin: 24px auto 0;
+    justify-content: center;
+    font-size: 0;
+    width: 175px;
+    border-radius: 8px 8px 8px 8px;
+    color: #fff
+}
+
+.banner .and-device a span {
+    line-height: 1;
+    font-size: 12px;
+    display: block
+}
+
+.banner .and-device a b {
+    line-height: 1;
+    font-size: 18px
+}
+
+.banner .and-device a b:lang(tw),
+.banner .and-device a b:lang(jp),
+.banner .and-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.banner .and-device a.apk-btn {
+    background: #7A9F04
+}
+
+@media (min-width:991px) {
+    .pc-device {
+        display: block !important
+    }
+
+    .ios-device,
+    .and-device {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:991px) {
+    .banner {
+        text-align: center
+    }
+
+    .banner .wrap {
+        flex-direction: column-reverse
+    }
+
+    .banner h1 {
+        font-size: 5.6rem
+    }
+
+    .banner .left {
+        width: 100%;
+        margin-top: 40px
+    }
+
+    .banner p.des {
+        width: 100%
+    }
+}
+
+@media (max-width:767px) {
+    .banner {
+        padding-bottom: 85px
+    }
+
+    .banner h1 {
+        font-size: 38px;
+        line-height: 44px
+    }
+
+    .banner .wrap {
+        flex-direction: column
+    }
+
+    .banner .right>img {
+        width: 250px;
+        max-width: 100%
+    }
+
+    .banner p.des {
+        margin-bottom: 24px
+    }
+}
+
+@media screen and (max-width:676px) {
+    .banner .btn {
+        margin: 15px 0
+    }
+
+    .banner .btn.btn-bd-wt.ic-arw {
+        margin-left: 0px
+    }
+}
+
+@media (max-width:360px) {
+
+    .foot-banner .ios-device a span,
+    .banner .ios-device a span,
+    .foot-banner .and-device a span,
+    .banner .and-device a span {
+        font-size: 1.2rem
+    }
+
+    .foot-banner .ios-device a b,
+    .banner .ios-device a b,
+    .foot-banner .and-device a b,
+    .banner .and-device a b {
+        font-size: 1.6rem
+    }
+}
+
+.rolls .container2 {
+    position: relative;
+    height: 88px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 16px 16px 16px 16px;
+    opacity: 1;
+    border: 1px solid #e6e8e9;
+    transform: translateY(-50%);
+    overflow: hidden
+}
+
+.rolls .container2::after,
+.rolls .container2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 100%;
+    z-index: 99;
+    top: 0
+}
+
+.rolls .container2::before {
+    left: 0;
+    border-radius: 16px 0 0 16px;
+    background: linear-gradient(90deg, #ffffff 39%, rgba(255, 255, 255, 0) 100%)
+}
+
+.rolls .container2::after {
+    right: 0;
+    border-radius: 0 16px 16px 0;
+    background: linear-gradient(270deg, #ffffff 39%, rgba(255, 255, 255, 0) 100%)
+}
+
+.rolls .swiper-container {
+    max-width: 1280px;
+    overflow: hidden
+}
+
+.rolls .wrap {
+    padding: 21px 0;
+    width: 9999%;
+    z-index: 1;
+    overflow: hidden
+}
+
+.rolls .wrap>div {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    margin: 0 20px
+}
+
+@media (max-width:767px) {
+    .rolls .container2 {
+        max-width: 90%;
+        margin: auto
+    }
+}
+
+.core {
+    padding: 160px 0;
+    text-align: center
+}
+
+.core .f-df:not(:last-child) {
+    margin-bottom: 200px
+}
+
+.core .wrap3,
+.core .wrap1,
+.core .wrap {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between
+}
+
+.core .left-txt,
+.core .right-txt {
+    text-align: left;
+    width: 48.15%
+}
+
+.core h5 {
+    color: #2258f6;
+    margin-bottom: 16px
+}
+
+.core h2 {
+    line-height: 46px;
+    margin-bottom: 16px
+}
+
+.core p.txt {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 10px
+}
+
+.core .ic-arw {
+    font-size: 14px;
+    color: #2258f6;
+    line-height: 20px
+}
+
+.core .ic-arw:hover::after {
+    transform: translateX(5px)
+}
+
+.core .wrap3 {
+    background: #131313;
+    color: #fff;
+    max-width: 1280px;
+    padding: 80px 140px;
+    border-radius: 40px 40px 40px 40px
+}
+
+.core .wrap3 .right-txt {
+    width: 46%
+}
+
+@media screen and (max-width:1200px) {
+    .core .wrap3 {
+        gap: 40px;
+        padding: 60px 40px;
+        align-items: center
+    }
+}
+
+@media screen and (max-width:991px) {
+    .core .wrap {
+        flex-direction: column
+    }
+
+    .core .wrap:nth-child(2),
+    .core .wrap:nth-child(4) {
+        flex-direction: column-reverse
+    }
+
+    .core .right-txt {
+        text-align: center;
+        width: 100%
+    }
+
+    .core .wrap3 {
+        flex-direction: column
+    }
+
+    .core .wrap3 .right-txt {
+        width: 100%
+    }
+}
+
+.tab-wrapper {
+    text-align: center;
+    padding: 150px 0
+}
+
+.tab-wrapper [data-slick="parent"] {
+    position: relative
+}
+
+.tab-wrapper [data-slick="parent"]::after,
+.tab-wrapper [data-slick="parent"]::before {
+    top: 50%;
+    content: "";
+    position: absolute;
+    display: block;
+    background: url("./MC-home-media-fuhao-blue.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 40px;
+    height: 32px
+}
+
+.tab-wrapper [data-slick="parent"]::before {
+    left: 60px
+}
+
+.tab-wrapper [data-slick="parent"]::after {
+    right: 60px;
+    transform: rotate(180deg)
+}
+
+.tab-wrapper h2 {
+    margin-bottom: 80px
+}
+
+.tab-wrapper .wrap {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #e6e8e9;
+    padding: 60px 200px
+}
+
+.tab-wrapper .tab-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px
+}
+
+.tab-wrapper .tab-btns .item {
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    position: relative
+}
+
+.tab-wrapper .tab-btns .item::before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute
+}
+
+.tab-wrapper .tab-btns .item.active::before {
+    background: transparent
+}
+
+.tab-wrapper .tab-btns .item:hover {
+    cursor: pointer
+}
+
+.tab-wrapper .tab-btns .item.img_1 {
+    background: url("./MC-home-media-logo-1.svg") no-repeat;
+    background-size: 100% 100%
+}
+
+.tab-wrapper .tab-btns .item.img_2 {
+    background: url("./MC-home-media-logo-2.svg") no-repeat;
+    background-size: 100% 100%
+}
+
+.tab-wrapper .tab-btns .item.img_3 {
+    background: url("./MC-home-media-logo-3.svg") no-repeat;
+    background-size: 100% 100%
+}
+
+.tab-wrapper .tab-content {
+    position: relative
+}
+
+.tab-wrapper .tab-content .item {
+    margin: auto;
+    width: 100% !important;
+    max-width: 100%
+}
+
+@media screen and (max-width:991px) {
+    .tab-wrapper .wrap {
+        padding: 60px 40px
+    }
+
+    .tab-wrapper .tab-btns {
+        flex-wrap: wrap
+    }
+
+    .tab-wrapper [data-slick="parent"]::after,
+    .tab-wrapper [data-slick="parent"]::before {
+        content: none
+    }
+}
+
+.online {
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 0
+}
+
+.online h2 {
+    margin-bottom: 24px
+}
+
+.online p.des {
+    margin-bottom: 80px
+}
+
+.online .p-emali a {
+    color: #2258f6
+}
+
+.online .p-emali a:hover {
+    text-decoration: underline
+}
+
+.online .wrap {
+    padding: 21px 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.online .wrap .item {
+    margin-bottom: 16px;
+    width: 200px;
+    height: 168px;
+    padding: 24px 10px;
+    background: #ffffff;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 16px 16px 16px 16px;
+    transition: transform .3s
+}
+
+.online .wrap .item:hover {
+    transform: translateY(-5px)
+}
+
+.online .wrap .item h5 {
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 22px;
+    color: #5d5d5d
+}
+
+.online .wrap .item>div {
+    width: 68px;
+    height: 68px;
+    background-size: 100% 100% !important;
+    margin: 0 20px;
+    margin: auto
+}
+
+.online .wrap .item .img_1 {
+    background: url("./MC-home-cloud-logo-68-1.svg")
+}
+
+.online .wrap .item .img_2 {
+    background: url("./MC-home-cloud-logo-68-2.svg")
+}
+
+.online .wrap .item .img_3 {
+    background: url("./MC-home-cloud-logo-68-3.svg")
+}
+
+.online .wrap .item .img_4 {
+    background: url("./MC-home-cloud-logo-68-4.svg")
+}
+
+.online .wrap .item .img_5 {
+    background: url("./MC-home-cloud-logo-68-5.svg")
+}
+
+.online .wrap .item .img_6 {
+    background: url("./MC-home-cloud-logo-68-6.svg")
+}
+
+.online .wrap .item .img_7 {
+    background: url("./MC-home-cloud-logo-68-7.svg")
+}
+
+.online .wrap .item .img_8 {
+    background: url("./MC-home-cloud-logo-68-8.svg")
+}
+
+.online .wrap .item .img_9 {
+    background: url("./MC-home-cloud-logo-68-9.svg")
+}
+
+.online .wrap .item .img_10 {
+    background: url("./MC-home-cloud-logo-68-10.svg")
+}
+
+.online .wrap .item .img_11 {
+    background: url("./MC-home-cloud-logo-68-11.svg")
+}
+
+.online .wrap .item .img_12 {
+    background: url("./MC-home-cloud-logo-68-12.svg")
+}
+
+.online .wrap .item .img_13 {
+    background: url("./MC-home-cloud-logo-68-13.svg")
+}
+
+.online .wrap .item .img_14 {
+    background: url("./MC-home-cloud-logo-68-14.svg")
+}
+
+.online .wrap .item .img_15 {
+    background: url("./MC-home-cloud-logo-68-15.svg")
+}
+
+.online .wrap .item .img_16 {
+    background: url("./MC-home-cloud-logo-68-16.svg")
+}
+
+.online .wrap .item .img_17 {
+    background: url("./MC-home-cloud-logo-68-17.svg")
+}
+
+.online .wrap .item .img_18 {
+    background: url("./MC-home-cloud-logo-68-18.svg")
+}
+
+.online .wrap .item .img_19 {
+    background: url("./MC-home-cloud-logo-68-19.svg")
+}
+
+.online .wrap .item .img_20 {
+    background: url("./MC-home-cloud-logo-68-20.svg")
+}
+
+.online .wrap .item .img_21 {
+    background: url("./MC-home-cloud-logo-68-21.svg")
+}
+
+.online .wrap .item .img_22 {
+    background: url("./MC-home-cloud-logo-68-22.svg")
+}
+
+.online .wrap .item .img_23 {
+    background: url("./MC-home-cloud-logo-68-23.svg")
+}
+
+.online .wrap .item .img_24 {
+    background: url("./MC-home-cloud-logo-68-24.svg")
+}
+
+.online .wrap .item .img_25 {
+    background: url("./MC-home-cloud-logo-68-25.svg")
+}
+
+.online .wrap .item .img_26 {
+    background: url("./MC-home-cloud-logo-68-26.svg")
+}
+
+.online .wrap .item .img_27 {
+    background: url("./MC-home-cloud-logo-68-27.svg")
+}
+
+.online .wrap .item .img_28 {
+    background: url("./MC-home-cloud-logo-68-28.svg")
+}
+
+.online .wrap .item .img_29 {
+    background: url("./MC-home-cloud-logo-68-29.svg")
+}
+
+.online .wrap .item .img_30 {
+    background: url("./MC-home-cloud-logo-68-30.svg")
+}
+
+.online .wrap .item .img_31 {
+    background: url("./MC-home-cloud-logo-68-31.svg")
+}
+
+.online .wrap .item .img_32 {
+    background: url("./MC-home-cloud-logo-68-32.svg")
+}
+
+.online .wrap .item .img_33 {
+    background: url("./MC-home-cloud-logo-68-33.svg")
+}
+
+.online .wrap .item .img_34 {
+    background: url("./MC-home-cloud-logo-68-34.svg")
+}
+
+.online .wrap .item .img_35 {
+    background: url("./MC-home-cloud-logo-68-35.svg")
+}
+
+.online .wrap .item .img_36 {
+    background: url("./MC-home-cloud-logo-68-36.svg")
+}
+
+.online .wrap .item .rolls_img {
+    background-size: cover
+}
+
+@media screen and (max-width:991px) {
+    .online .wrap .item {
+        width: 32%;
+        height: 125px;
+        padding: 15px 10px
+    }
+
+    .online .wrap .item h5 {
+        margin-top: 10px;
+        line-height: 12px
+    }
+}
+
+.trusted {
+    text-align: center;
+    padding: 40px 0 210px
+}
+
+.trusted h2 {
+    margin-bottom: 80px
+}
+
+.trusted .wrap {
+    display: flex;
+    justify-content: space-between
+}
+
+.trusted .wrap .item {
+    width: 31%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #e6e8e9;
+    padding: 40px 24px
+}
+
+.trusted .wrap h5 {
+    margin-bottom: 40px
+}
+
+.trusted .wrap p.des {
+    margin-top: 40px;
+    line-height: 32px
+}
+
+@media screen and (max-width:991px) {
+    .trusted .wrap {
+        flex-wrap: wrap;
+        gap: 24px
+    }
+
+    .trusted .wrap .item {
+        width: 100%
+    }
+}
+
+.foot-banner {
+    background: url("./MC-home-bottom-img-bg.svg") no-repeat;
+    background-size: cover
+}
+
+.foot-banner .wrap {
+    position: relative;
+    padding: 120px 0
+}
+
+.foot-banner .wrap .left {
+    width: 50%
+}
+
+.foot-banner .wrap .right {
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    font-size: 0
+}
+
+.foot-banner h2 {
+    color: #fff;
+    margin: 24px 0 40px
+}
+
+.foot-banner .btn.btn-bl {
+    line-height: 1;
+    padding-top: 13px;
+    vertical-align: -9px
+}
+
+.foot-banner .btn.btn-bl b {
+    font-size: 18px
+}
+
+.foot-banner .btn.btn-bl b:lang(tw) {
+    display: inline-block;
+    margin-bottom: 3px
+}
+
+.foot-banner .btn.btn-bl span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.foot-banner .ios-device {
+    margin: 24px auto 0;
+    text-align: center
+}
+
+.foot-banner .ios-device a {
+    align-items: center;
+    background: #000000;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    padding: 12px;
+    justify-content: center;
+    font-size: 0;
+    width: 190px;
+    border-radius: 8px 8px 8px 8px;
+    max-width: 100%;
+    color: #fff
+}
+
+.foot-banner .ios-device a span {
+    line-height: 1;
+    font-size: 14px;
+    display: block
+}
+
+.foot-banner .ios-device a b {
+    line-height: 1;
+    font-size: 26px
+}
+
+.foot-banner .ios-device a b:lang(tw),
+.foot-banner .ios-device a b:lang(jp),
+.foot-banner .ios-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.foot-banner .and-device {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto 0;
+    text-align: center
+}
+
+.foot-banner .and-device a {
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    background: #000000;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    font-size: 0;
+    width: 175px;
+    border-radius: 8px 8px 8px 8px;
+    color: #fff;
+    max-width: 48%
+}
+
+.foot-banner .and-device a span {
+    line-height: 1;
+    font-size: 12px;
+    display: block
+}
+
+.foot-banner .and-device a b {
+    line-height: 1;
+    font-size: 18px
+}
+
+.foot-banner .and-device a b:lang(tw),
+.foot-banner .and-device a b:lang(jp),
+.foot-banner .and-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.foot-banner .and-device a.apk-btn {
+    background: #7A9F04
+}
+
+@media screen and (max-width:991px) {
+    .foot-banner .wrap {
+        display: flex;
+        text-align: center;
+        gap: 40px;
+        flex-direction: column-reverse
+    }
+
+    .foot-banner .wrap .left {
+        width: 100%
+    }
+
+    .foot-banner .wrap .right {
+        position: unset
+    }
+}
+
+@media (max-width:767px) {
+    .foot-banner {
+        padding: 60px 0
+    }
+
+    .foot-banner h2 {
+        line-height: 1.2
+    }
+
+    .foot-banner .wrap {
+        padding: 0;
+        gap: 0;
+        flex-direction: column
+    }
+}
+
+.swiper-wrapper {
+    transition-timing-function: linear !important
+}
+
+.foot-banner [data-device="true"],
+.banner [data-device="true"] {
+    display: none
+}
+
+.foot-banner [data-device="true"].active,
+.banner [data-device="true"].active {
+    display: block
+}
+
+.foot-banner [data-device="true"].and-device.active,
+.banner [data-device="true"].and-device.active {
+    display: flex
+}

@@ -1,0 +1,151 @@
+.banner {
+    color: #fff;
+    background: url(./banner-bg.png);
+    background-size: cover
+}
+
+.banner .container2 {
+    padding: 80px 0;
+    position: relative
+}
+
+.banner h1 {
+    line-height: 88px;
+    margin: 16px 0 24px;
+    font-size: 8rem
+}
+
+.banner p.desc {
+    font-weight: 100;
+    margin-bottom: 40px;
+    width: 618px;
+    max-width: 100%
+}
+
+.banner .btn-bd-wt {
+    width: 277px;
+    max-width: 100%;
+    opacity: .9
+}
+
+.banner .btn-bd-wt i {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(./ic-email.svg) no-repeat;
+    vertical-align: middle;
+    margin-right: 7px
+}
+
+.banner .imgbx {
+    font-size: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+@media(min-device-width:2048px) {
+    .banner {
+        background-image: url(./banner-bg@2x.png);
+        background-size: 100% 100%
+    }
+}
+
+@media(max-width:991px) {
+    .banner .wrap {
+        text-align: center
+    }
+
+    .banner .imgbx {
+        display: none
+    }
+}
+
+@media(max-width:767px) {
+    .banner h1 {
+        font-size: 40px;
+        line-height: 46px
+    }
+
+    .banner .container2 {
+        padding: 40px 6%
+    }
+
+    .banner .wrap {
+        padding: 0
+    }
+
+    .banner .btn-bd-wt {
+        width: 200px;
+        min-width: 200px
+    }
+}
+
+.support {
+    text-align: center;
+    padding: 160px 0
+}
+
+.support .wrap {
+    display: flex;
+    justify-content: space-between
+}
+
+.support .wrap .item {
+    padding: 40px 0;
+    width: 23.8%;
+    background: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #e6e8e9
+}
+
+.support .wrap .btn-min {
+    min-width: 160px;
+    height: 40px;
+    line-height: 40px
+}
+
+.support .wrap h3 {
+    line-height: 26px;
+    margin: 24px auto 12px
+}
+
+.support .wrap p {
+    margin-bottom: 24px;
+    padding: 0 30px;
+    min-height: 72px
+}
+
+.support .item2 .btn-min {
+    min-width: 120px;
+    margin: 0 8px
+}
+
+@media(max-width:1280px) {
+    .support .wrap {
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+
+    .support .wrap .item {
+        width: 450px;
+        margin-bottom: 30px;
+        max-width: 45%
+    }
+}
+
+@media(max-width:767px) {
+    .support {
+        padding: 40px 0 10px
+    }
+
+    .support .wrap .item {
+        width: 400px;
+        max-width: 100%
+    }
+
+    .support .wrap p {
+        min-height: 0
+    }
+}

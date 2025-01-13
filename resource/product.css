@@ -1,0 +1,950 @@
+.bnr {
+    padding: 100px 0;
+    text-align: center;
+    background: url(./MC-product-banner-bg@2x.jpg) no-repeat;
+    background-size: cover
+}
+
+.bnr h1 {
+    color: #fff;
+    font-size: 80px
+}
+
+.bnr .desc {
+    font-size: 24px;
+    color: rgba(255, 255, 255, .9)
+}
+
+.bnr .list {
+    display: flex;
+    font-size: 16px;
+    color: #fff;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 20px auto 40px
+}
+
+.bnr .list li {
+    position: relative;
+    width: 50%;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px
+}
+
+.bnr .list li::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(./MC-product-banner-gou.svg) no-repeat
+}
+
+.bnr .btn.btn-bd-wt.ic-arw {
+    margin-left: 10px
+}
+
+.bnr .btn.btn-bl {
+    line-height: 1;
+    padding-top: 13px;
+    vertical-align: -9px
+}
+
+.bnr .btn.btn-bl b {
+    font-size: 18px
+}
+
+.bnr .btn.btn-bl b:lang(tw) {
+    display: inline-block;
+    margin-bottom: 3px
+}
+
+.bnr .btn.btn-bl span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .8)
+}
+
+.bnr .ios-device a {
+    text-align: left;
+    align-items: center;
+    background: #000;
+    display: flex;
+    padding: 12px;
+    margin: 24px auto 0;
+    justify-content: center;
+    font-size: 0;
+    width: 190px;
+    border-radius: 8px 8px 8px 8px;
+    max-width: 100%;
+    color: #fff
+}
+
+.bnr .ios-device a span {
+    line-height: 1;
+    font-size: 14px;
+    display: block
+}
+
+.bnr .ios-device a b {
+    line-height: 1;
+    font-size: 26px
+}
+
+.bnr .ios-device a b:lang(tw),
+.bnr .ios-device a b:lang(jp),
+.bnr .ios-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.bnr .and-device {
+    display: flex;
+    justify-content: space-between
+}
+
+.bnr .and-device a {
+    align-items: center;
+    text-align: left;
+    background: #000;
+    display: flex;
+    padding: 12px;
+    margin: 24px auto 0;
+    justify-content: center;
+    font-size: 0;
+    width: 175px;
+    border-radius: 8px 8px 8px 8px;
+    color: #fff;
+    max-width: 48%
+}
+
+.bnr .and-device a span {
+    line-height: 1;
+    font-size: 12px;
+    display: block
+}
+
+.bnr .and-device a b {
+    line-height: 1;
+    font-size: 18px
+}
+
+.bnr .and-device a b:lang(tw),
+.bnr .and-device a b:lang(jp),
+.bnr .and-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.bnr .and-device a.apk-btn {
+    background: #7a9f04
+}
+
+@media(min-width:991px) {
+    .pc-device {
+        display: block !important
+    }
+
+    .ios-device,
+    .and-device {
+        display: none !important
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bnr h1 {
+        font-size: 48px
+    }
+
+    .bnr .btn.btn-bd-wt.ic-arw {
+        margin: 20px 0 0
+    }
+}
+
+@media(max-width:767px) {
+    .bnr {
+        padding-top: 160px;
+        padding-bottom: 80px
+    }
+
+    .bnr h1 {
+        font-size: 36px;
+        margin-bottom: 24px;
+        margin-top: 40px;
+        line-height: 42px
+    }
+
+    .bnr p.desc {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 16px
+    }
+
+    .bnr .list {
+        display: none
+    }
+}
+
+.what {
+    padding: 160px 0;
+    text-align: center
+}
+
+.what h2 {
+    font-size: 40px;
+    margin-bottom: 15px
+}
+
+.what .desc {
+    font-size: 20px;
+    margin-bottom: 200px
+}
+
+.what-item:not(:last-child) {
+    margin-bottom: 200px
+}
+
+.what .wrap {
+    display: flex;
+    color: #000;
+    gap: 100px
+}
+
+.what h3 {
+    font-size: 48px
+}
+
+.what .ms {
+    max-width: 640px;
+    font-size: 16px;
+    margin: 10px 0 30px
+}
+
+.what .item {
+    text-align: left
+}
+
+.what .item-img {
+    max-width: 500px;
+    width: 500px;
+    height: 322px
+}
+
+.what .list {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.what .list li {
+    position: relative;
+    width: 50%;
+    padding-left: 25px;
+    margin-bottom: 15px
+}
+
+.what .list li::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(./MC-product-transfer-gougou-16.svg) no-repeat
+}
+
+.what .more-btn {
+    display: inline-block;
+    min-width: 160px;
+    height: 44px;
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #1d70ec;
+    text-align: center;
+    line-height: 44px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #2258f6;
+    margin-top: 25px;
+    cursor: pointer
+}
+
+.what .info-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 100px
+}
+
+.what .info-box {
+    display: none
+}
+
+.what .info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px
+}
+
+.what .info-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px
+}
+
+.what .info-item h4 {
+    margin-bottom: 15px
+}
+
+.what .info-item h4 a {
+    color: #000;
+    font-size: 24px
+}
+
+.what .info-item h4 a:hover {
+    text-decoration: underline
+}
+
+.what .info-item .info {
+    max-width: 532px;
+    font-size: 14px
+}
+
+.what .info-item .info a {
+    color: #2258f6
+}
+
+.what .info-item .info a:hover {
+    text-decoration: underline
+}
+
+.what .close-btn {
+    display: inline-block;
+    min-width: 120px;
+    height: 44px;
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #1d70ec;
+    padding: 0 10px;
+    line-height: 44px;
+    color: #2258f6;
+    margin: auto;
+    cursor: pointer
+}
+
+@media screen and (max-width:991px) {
+    .what {
+        padding: 80px 0
+    }
+
+    .what .desc {
+        margin-bottom: 40px
+    }
+
+    .what .what-item:not(:last-child) {
+        margin-bottom: 80px
+    }
+
+    .what .wrap {
+        flex-direction: column;
+        gap: 40px
+    }
+
+    .what .item-img {
+        width: 100%;
+        height: auto
+    }
+
+    .what .item {
+        text-align: center
+    }
+
+    .what .list {
+        max-width: 80%;
+        text-align: left;
+        margin: auto
+    }
+}
+
+@media screen and (max-width:467px) {
+    .what .list {
+        max-width: 100%
+    }
+}
+
+.online {
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 0
+}
+
+.online h2 {
+    margin-bottom: 24px
+}
+
+.online p.des {
+    margin-bottom: 80px
+}
+
+.online .p-emali a {
+    color: #2258f6
+}
+
+.online .p-emali a:hover {
+    text-decoration: underline
+}
+
+.online .wrap {
+    padding: 21px 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.online .wrap .item {
+    margin-bottom: 16px;
+    width: 200px;
+    height: 168px;
+    padding: 24px 10px;
+    background: #fff;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, .05);
+    border-radius: 16px 16px 16px 16px;
+    transition: transform .3s
+}
+
+.online .wrap .item:hover {
+    transform: translateY(-5px)
+}
+
+.online .wrap .item h5 {
+    font-weight: 400;
+    margin-top: 16px;
+    line-height: 22px;
+    color: #5d5d5d
+}
+
+.online .wrap .item>div {
+    width: 68px;
+    height: 68px;
+    background-size: 100% 100% !important;
+    margin: 0 20px;
+    margin: auto
+}
+
+.online .wrap .item .img_1 {
+    background: url(./MC-home-cloud-logo-68-1.svg)
+}
+
+.online .wrap .item .img_2 {
+    background: url(./MC-home-cloud-logo-68-2.svg)
+}
+
+.online .wrap .item .img_3 {
+    background: url(./MC-home-cloud-logo-68-3.svg)
+}
+
+.online .wrap .item .img_4 {
+    background: url(./MC-home-cloud-logo-68-4.svg)
+}
+
+.online .wrap .item .img_5 {
+    background: url(./MC-home-cloud-logo-68-5.svg)
+}
+
+.online .wrap .item .img_6 {
+    background: url(./MC-home-cloud-logo-68-6.svg)
+}
+
+.online .wrap .item .img_7 {
+    background: url(./MC-home-cloud-logo-68-7.svg)
+}
+
+.online .wrap .item .img_8 {
+    background: url(./MC-home-cloud-logo-68-8.svg)
+}
+
+.online .wrap .item .img_9 {
+    background: url(./MC-home-cloud-logo-68-9.svg)
+}
+
+.online .wrap .item .img_10 {
+    background: url(./MC-home-cloud-logo-68-10.png)
+}
+
+.online .wrap .item .img_11 {
+    background: url(./MC-home-cloud-logo-68-11.svg)
+}
+
+.online .wrap .item .img_12 {
+    background: url(./MC-home-cloud-logo-68-12.svg)
+}
+
+.online .wrap .item .img_13 {
+    background: url(./MC-home-cloud-logo-68-13.svg)
+}
+
+.online .wrap .item .img_14 {
+    background: url(./MC-home-cloud-logo-68-14.svg)
+}
+
+.online .wrap .item .img_15 {
+    background: url(./MC-home-cloud-logo-68-15.svg)
+}
+
+.online .wrap .item .img_16 {
+    background: url(./MC-home-cloud-logo-68-16.svg)
+}
+
+.online .wrap .item .img_17 {
+    background: url(./MC-home-cloud-logo-68-17.svg)
+}
+
+.online .wrap .item .img_18 {
+    background: url(./MC-home-cloud-logo-68-18.svg)
+}
+
+.online .wrap .item .img_19 {
+    background: url(./MC-home-cloud-logo-68-19.svg)
+}
+
+.online .wrap .item .img_20 {
+    background: url(./MC-home-cloud-logo-68-20.svg)
+}
+
+.online .wrap .item .img_21 {
+    background: url(./MC-home-cloud-logo-68-21.svg)
+}
+
+.online .wrap .item .img_22 {
+    background: url(./MC-home-cloud-logo-68-22.svg)
+}
+
+.online .wrap .item .img_23 {
+    background: url(./MC-home-cloud-logo-68-23.svg)
+}
+
+.online .wrap .item .img_24 {
+    background: url(./MC-home-cloud-logo-68-24.svg)
+}
+
+.online .wrap .item .img_25 {
+    background: url(./MC-home-cloud-logo-68-25.svg)
+}
+
+.online .wrap .item .img_26 {
+    background: url(./MC-home-cloud-logo-68-26.svg)
+}
+
+.online .wrap .item .img_27 {
+    background: url(./MC-home-cloud-logo-68-27.svg)
+}
+
+.online .wrap .item .img_28 {
+    background: url(./MC-home-cloud-logo-68-28.svg)
+}
+
+.online .wrap .item .img_29 {
+    background: url(./MC-home-cloud-logo-68-29.svg)
+}
+
+.online .wrap .item .img_30 {
+    background: url(./MC-home-cloud-logo-68-30.svg)
+}
+
+.online .wrap .item .img_31 {
+    background: url(./MC-home-cloud-logo-68-31.svg)
+}
+
+.online .wrap .item .img_32 {
+    background: url(./MC-home-cloud-logo-68-32.svg)
+}
+
+.online .wrap .item .img_33 {
+    background: url(./MC-home-cloud-logo-68-33.svg)
+}
+
+.online .wrap .item .img_34 {
+    background: url(./MC-home-cloud-logo-68-34.svg)
+}
+
+.online .wrap .item .img_35 {
+    background: url(./MC-home-cloud-logo-68-35.svg)
+}
+
+.online .wrap .item .img_36 {
+    background: url(./MC-home-cloud-logo-68-36.svg)
+}
+
+.online .wrap .item .rolls_img {
+    background-size: cover
+}
+
+@media screen and (max-width:991px) {
+    .online .wrap .item {
+        width: 32%;
+        height: 125px;
+        padding: 15px 10px
+    }
+
+    .online .wrap .item h5 {
+        margin-top: 10px;
+        line-height: 12px
+    }
+}
+
+.security {
+    padding: 200px 0
+}
+
+.security-box {
+    background: #131313;
+    border-radius: 40px 40px 40px 40px;
+    font-size: 40px;
+    padding: 80px 0;
+    color: #fff
+}
+
+.security-box h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px
+}
+
+.security-box .desc {
+    font-size: 14px
+}
+
+.security-box .list {
+    display: flex;
+    text-align: center;
+    padding: 0 40px
+}
+
+.security-box .list li {
+    width: 33%;
+    padding: 0 25px
+}
+
+@media screen and (max-width:991px) {
+    .security {
+        padding: 80px 0
+    }
+
+    .security-box .list {
+        flex-direction: column
+    }
+
+    .security-box .list li {
+        width: 100%
+    }
+}
+
+.awards {
+    padding-bottom: 218px
+}
+
+.awards h2 {
+    text-align: center;
+    margin-bottom: 80px
+}
+
+.awards-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.awards-item {
+    position: relative;
+    max-width: 620px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .05);
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #e6e8e9;
+    padding: 40px 40px 60px;
+    text-align: center;
+    color: #000
+}
+
+.awards-item .name {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 10px 0 40px
+}
+
+.awards-item .desc {
+    min-height: 280px;
+    margin: 40px 0 0;
+    line-height: 32px
+}
+
+.awards-item .bot-more {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    text-align: left
+}
+
+.awards-item .bot-more a {
+    color: #2258f6;
+    font-size: 14px
+}
+
+.awards-item .bot-more a:hover {
+    text-decoration: underline
+}
+
+.awards-item .slick-prev,
+.awards-item .slick-next {
+    width: 64px;
+    height: 64px;
+    border: 1px solid #e6e8e9;
+    border-radius: 50%;
+    background: url(./MC-product-ic-arrow-40.svg) #fff no-repeat;
+    background-position: 50% 50%;
+    top: 94%
+}
+
+.awards-item .slick-prev {
+    left: calc(50% + 120px)
+}
+
+.awards-item .slick-next {
+    right: 0;
+    transform: rotate(-180deg)
+}
+
+@media screen and (max-width:1200px) {
+    .awards-box {
+        flex-direction: column
+    }
+
+    .awards-item {
+        margin-bottom: 40px
+    }
+
+    .awards .slick-prev {
+        left: 0
+    }
+
+    .awards .slick-prev,
+    .awards .slick-next {
+        display: none !important
+    }
+}
+
+.foot-banner {
+    background: url(./MC-home-bottom-img-bg.svg) no-repeat;
+    background-size: cover
+}
+
+.foot-banner .wrap {
+    position: relative;
+    padding: 120px 0
+}
+
+.foot-banner .wrap .left {
+    width: 50%
+}
+
+.foot-banner .wrap .right {
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    font-size: 0
+}
+
+.foot-banner h2 {
+    color: #fff;
+    margin: 24px 0 40px
+}
+
+.foot-banner .btn.btn-bl {
+    line-height: 1;
+    padding-top: 13px;
+    vertical-align: -9px
+}
+
+.foot-banner .btn.btn-bl b {
+    font-size: 18px
+}
+
+.foot-banner .btn.btn-bl b:lang(tw) {
+    display: inline-block;
+    margin-bottom: 3px
+}
+
+.foot-banner .btn.btn-bl span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .8)
+}
+
+.foot-banner .ios-device {
+    margin: 24px auto 0;
+    text-align: center
+}
+
+.foot-banner .ios-device a {
+    align-items: center;
+    background: #000;
+    display: flex;
+    margin: auto;
+    text-align: left;
+    padding: 12px;
+    justify-content: center;
+    font-size: 0;
+    width: 190px;
+    border-radius: 8px 8px 8px 8px;
+    max-width: 100%;
+    color: #fff
+}
+
+.foot-banner .ios-device a span {
+    line-height: 1;
+    font-size: 14px;
+    display: block
+}
+
+.foot-banner .ios-device a b {
+    line-height: 1;
+    font-size: 26px
+}
+
+.foot-banner .ios-device a b:lang(tw),
+.foot-banner .ios-device a b:lang(jp),
+.foot-banner .ios-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.foot-banner .and-device {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px auto 0;
+    text-align: center
+}
+
+.foot-banner .and-device a {
+    margin: auto;
+    align-items: center;
+    text-align: left;
+    background: #000;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    font-size: 0;
+    width: 175px;
+    border-radius: 8px 8px 8px 8px;
+    color: #fff;
+    max-width: 48%
+}
+
+.foot-banner .and-device a span {
+    line-height: 1;
+    font-size: 12px;
+    display: block
+}
+
+.foot-banner .and-device a b {
+    line-height: 1;
+    font-size: 18px
+}
+
+.foot-banner .and-device a b:lang(tw),
+.foot-banner .and-device a b:lang(jp),
+.foot-banner .and-device a b:lang(cn) {
+    margin-bottom: 4px;
+    margin-top: 4px;
+    display: inline-block
+}
+
+.foot-banner .and-device a.apk-btn {
+    background: #7a9f04
+}
+
+@media screen and (max-width:991px) {
+    .foot-banner .wrap {
+        display: flex;
+        text-align: center;
+        gap: 40px;
+        flex-direction: column
+    }
+
+    .foot-banner .wrap .left {
+        width: 100%
+    }
+
+    .foot-banner .wrap .right {
+        position: unset
+    }
+}
+
+@media(max-width:767px) {
+    .foot-banner {
+        padding: 60px 0
+    }
+
+    .foot-banner h2 {
+        line-height: 1.2
+    }
+
+    .foot-banner .wrap {
+        gap: 0;
+        padding: 0
+    }
+}
+
+.foot-banner [data-device=true],
+.bnr [data-device=true] {
+    display: none
+}
+
+.foot-banner [data-device=true].active,
+.bnr [data-device=true].active {
+    display: block
+}
+
+.foot-banner [data-device=true].and-device.active,
+.bnr [data-device=true].and-device.active {
+    display: flex
+}
+
+.foot-banner [data-device=true].ios-device.active,
+.bnr [data-device=true].ios-device.active {
+    display: flex
+}
+
+@media(max-width:360px) {
+
+    .foot-banner .ios-device a span,
+    .bnr .ios-device a span,
+    .foot-banner .and-device a span,
+    .bnr .and-device a span {
+        font-size: 1.2rem
+    }
+
+    .foot-banner .ios-device a b,
+    .bnr .ios-device a b,
+    .foot-banner .and-device a b,
+    .bnr .and-device a b {
+        font-size: 1.6rem
+    }
+}
+
+[lang=tw] .bnr .list {
+    max-width: 800px;
+    justify-content: space-between
+}
+
+[lang=tw] .bnr .list li {
+    width: auto
+}

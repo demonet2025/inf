@@ -1,0 +1,859 @@
+body.login-popup>div {
+    font-size: 16px
+}
+
+.login-popup {
+    display: none
+}
+
+.login-popup h4 {
+    font-size: 24px;
+    line-height: 30px
+}
+
+.login-popup .ic-lf.hook-pup li::before {
+    background: url(../images/icons/MC-allin-1.png) no-repeat -284px -11px
+}
+
+.login-popup .f-fs20 {
+    font-size: 20px
+}
+
+.login-popup .f-fs18 {
+    font-size: 18px
+}
+
+.login-popup .f-fs16 {
+    font-size: 16px
+}
+
+.login-popup .f-fs14 {
+    font-size: 14px
+}
+
+.login-popup .s-fc-bl {
+    color: #2258f6
+}
+
+.login-popup input::-webkit-input-placeholder {
+    color: #bdbec0
+}
+
+.login-popup .mc-row {
+    width: 100%;
+    margin-top: 24px;
+    line-height: 20px;
+    position: relative
+}
+
+.login-popup .width100 {
+    width: 100%
+}
+
+.login-popup .width68 {
+    width: 68%
+}
+
+.login-popup .link-gry {
+    color: #b2b2b2
+}
+
+.login-popup .link-gry:hover {
+    color: #2258f6
+}
+
+.login-popup .ic-label {
+    display: block;
+    position: relative
+}
+
+.login-popup .ic-label.f-dib {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.login-popup .ic-label::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 4px 8px;
+    z-index: 2
+}
+
+.login-popup .ic-label.ic-name::before {
+    background-position: -10px -150px
+}
+
+.login-popup .ic-label.ic-email::before {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiBvcGFjaXR5PSIwIiByeD0iNiIgd2lkdGg9IjMyIi8+PHJlY3QgZmlsbD0ibm9uZSIgaGVpZ2h0PSIxNCIgcng9IjEiIHN0cm9rZT0iIzkzOTM5MyIgc3Ryb2tlLXdpZHRoPSIxLjUiIHdpZHRoPSIxOCIgeD0iNyIgeT0iOSIvPjxwYXRoIGQ9Im0yNS40MzkxIDEwLjYwODAwOS04LjQxNDUgNi4wNzcxNDFxLS40NTg3My4zMzEzMi0xLjAyNDYuMzMxMzItLjU2NTg3IDAtMS4wMjQ2MS0uMzMxMzJsLTguNDE0NTA4LTYuMDc3MTQxLjg3ODIzNi0xLjIxNjAxOCA4LjQxNDUxMiA2LjA3NzE0OXEuMTQ2MzcuMTA1NzEuMjkyNzQgMGw4LjQxNDUzLTYuMDc3MTQ5eiIgZmlsbD0iIzkzOTM5MyIvPjwvc3ZnPg==) no-repeat
+}
+
+.login-popup .ic-label.ic-password::before {
+    background: url(../images/sign/MC-buy-signup-ic-password.svg) no-repeat
+}
+
+.login-popup .ic-label.ic-verification::before {
+    background: url(../images/sign/MC-buy-signup-ic-code.svg) no-repeat
+}
+
+.login-popup input {
+    font-size: 16px;
+    font-family: PT Sans-Regular, PT Sans;
+    border: 1px solid #f5f7f9;
+    border-radius: 6px;
+    padding: 9px 10px 8px 48px;
+    background: #f5f7f9
+}
+
+.login-popup input:focus {
+    border-color: #2258f6
+}
+
+.login-popup input.error {
+    border-color: red
+}
+
+.login-popup .btn {
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 10px;
+    font-family: myriad blod;
+    text-align: center
+}
+
+.login-popup .btn.btn-bl {
+    background-color: #2258f6;
+    margin-bottom: 16px
+}
+
+.login-popup .btn:hover {
+    color: #fff
+}
+
+.login-popup .disabled {
+    cursor: not-allowed
+}
+
+.login-popup .tips-info {
+    position: absolute;
+    margin: 3px 0 0;
+    font-size: 14px;
+    color: #ff1800;
+    left: 0;
+    width: 100%
+}
+
+.login-popup .tips-info.suc {
+    color: #36d53a
+}
+
+.login-popup .tips-info.erro {
+    color: #ff1800
+}
+
+.login-popup .btn-bx .tips-info {
+    position: static;
+    text-align: center;
+    margin: 10px 0 4px
+}
+
+.login-popup .thirdLogin {
+    font-size: 16px;
+    margin: 16px 0 0
+}
+
+.login-popup .thirdLogin .small {
+    font-size: 14px !important;
+    font-family: Roboto-Regular, Roboto;
+    font-weight: 400
+}
+
+.login-popup .thirdLogin .ic-third {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle
+}
+
+.login-popup .thirdLogin .ic-third:hover {
+    opacity: .9
+}
+
+.login-popup .thirdLogin .ic-third.facebook {
+    background: url(../images/sign/MC-signup-ic-log-fb.svg) no-repeat
+}
+
+.login-popup .thirdLogin .ic-third.google {
+    background: url(../images/sign/MC-signup-ic-log-google.svg) no-repeat
+}
+
+.login-popup .thirdLogin .ic-third.apple {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyB0cmFuc2Zvcm09Im1hdHJpeCgwIDEgLTEgMCAzMiAtMzIpIj48cGF0aCBkPSJtMzIgMGgzMnYzMmgtMzJ6IiBmaWxsPSJub25lIi8+PHBhdGggZD0ibTQ1LjczNDcgMzQuNDY2MTRjLTEuMDI1MDcgMC0yLjYxMTg2LTEuMTY3OTYtNC4yODI5Mi0xLjEyNTc0LTIuMjA0NjYuMDI4MTQtNC4yMjY3OCAxLjI4MDUzLTUuMzY0MjIgMy4yNjQ2Ni0yLjI4ODkyIDMuOTgyMzQtLjU4OTc4MSA5Ljg2NDM0IDEuNjQyOTcgMTMuMTAwODQgMS4wOTUzMSAxLjU3NiAyLjM4NzIyIDMuMzQ5MSA0LjEwMDM5IDMuMjkyOCAxLjY0Mjk3LS4wNzA0IDIuMjYwODQtMS4wNjk1IDQuMjU0ODgtMS4wNjk1IDEuOTggMCAyLjU0MTcgMS4wNjk1IDQuMjgyOSAxLjAyNzMgMS43Njk0LS4wMjgyIDIuODkyOC0xLjYwNDIgMy45NzQtMy4xOTQzIDEuMjQ5OC0xLjgyOTMgMS43Njk0LTMuNjAyNCAxLjc5NzUtMy43MDA5LS4wNDIxLS4wMTQxLTMuNDQwNC0xLjMyMjgtMy40ODI1LTUuMjYyOS0uMDI4MS0zLjI5MjggMi42ODIxLTQuODY4NzkgMi44MDg1LTQuOTM5MTUtMS41NDQ3LTIuMjY1NTYtMy45MTc5LTIuNTE4ODUtNC43NDY0LTIuNTc1MTQtMi4xNjI1LS4xNjg4Ni0zLjk3NCAxLjE4MjAzLTQuOTg1MSAxLjE4MjAzem0zLjkxMDYtMy4zODY3M2MuODkzOC0xLjA3ODYyIDEuNDg1MS0yLjU4NTkzIDEuMzIwMS00LjA3OTQxLTEuMjc4OS4wNTUzMTIxLTIuODE5Ljg1NzM3MS0zLjc0MDMgMS45MzU5OS0uODI1MS45NTQxNy0xLjU0MDEgMi40ODkxNC0xLjM0NzYgMy45NTQ5NSAxLjQxNjQuMTEwNjQgMi44NzQtLjczMjkxIDMuNzY3OC0xLjgxMTUzeiIgZmlsbD0iIzAwMCIgdHJhbnNmb3JtPSJtYXRyaXgoMCAtMSAxIDAgOCA2MikiLz48L2c+PC9zdmc+) no-repeat
+}
+
+.login-popup .thirdLogin .ic-third.facebook-small {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background: url(../images/sign/MC-signup-ic-log-fb-small.svg) no-repeat
+}
+
+.login-popup .thirdLogin .ic-third.google-small {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background: url(../images/sign/MC-signup-ic-log-google-small.svg) no-repeat
+}
+
+.login-popup .thirdLogin .ic-third.apple-small {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background: url(../images/sign/MC-signup-ic-log-apple-small.svg) no-repeat
+}
+
+.login-popup .email-active-bx {
+    background-color: #dbddf8;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    margin: 5px 0 0 !important;
+    display: none
+}
+
+.login-popup .email-active-bx .a-bx .link:not(:first-child) {
+    margin-left: 20px
+}
+
+.login-popup .email-active-bx .close {
+    display: inline-block;
+    position: absolute;
+    line-height: 1;
+    font-size: 22px;
+    top: 8px;
+    right: 12px;
+    color: #2258f6;
+    cursor: pointer
+}
+
+.login-popup .suc-tips-bx {
+    background-color: #8c94ea;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px 70px 20px 54px;
+    position: absolute;
+    width: 90%;
+    display: none;
+    z-index: 5
+}
+
+.login-popup .suc-tips-bx.forget-tips {
+    top: 20px;
+    left: 5%;
+    min-height: 60px
+}
+
+.login-popup .suc-tips-bx.err {
+    color: #ff1800;
+    padding: 15px 70px 15px 25px
+}
+
+.login-popup .suc-tips-bx .close {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+    font-size: 22px;
+    color: #2258f6;
+    cursor: pointer
+}
+
+.login-popup .suc-tips-bx .txt {
+    float: left
+}
+
+.login-popup .ic-back {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons/MC-signup-ic-back.svg) no-repeat;
+    cursor: pointer
+}
+
+.login-popup .sign-mn {
+    background-color: #fff;
+    border-radius: 10px;
+    line-height: 1;
+    padding: 60px 40px;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    border: 1px solid #e6e8e9
+}
+
+.login-popup .sign-mn[data-elem=signIn] h4 a,
+.login-popup .sign-mn[data-elem=signUp] h4 a {
+    font-size: 14px;
+    font-family: myriad pro;
+    float: right;
+    font-weight: 400;
+    margin-top: 6px
+}
+
+.login-popup .sign-mn .bt-txt {
+    text-align: center;
+    font-size: 14px
+}
+
+.login-popup .sign-mn .bt-txt p {
+    margin-top: 17px
+}
+
+.login-popup .sign-mn .bt-txt p:last-child {
+    margin-top: 19px
+}
+
+.login-popup .account-activation {
+    font-family: PT Sans-Regular, PT Sans;
+    display: none;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 540px;
+    padding: 80px 32px;
+    min-height: 550px;
+    text-align: center
+}
+
+.login-popup .account-activation h4 {
+    font-weight: 700;
+    font-family: PT Sans-Bold, PT Sans;
+    margin: 24px 0 16px
+}
+
+.login-popup .account-activation .btn {
+    margin: 80px 0 16px;
+    max-width: 360px
+}
+
+.login-popup .account-activation p {
+    font-size: 16px;
+    line-height: 22px
+}
+
+.login-popup .forget-wrap {
+    padding-bottom: 60px;
+    position: relative;
+    display: none
+}
+
+.login-popup .forget-wrap h4+p {
+    margin-top: 23px
+}
+
+.login-popup .forget-wrap .mc-row:first-child {
+    margin-top: 14px
+}
+
+.login-popup .forget-wrap .forgetFrom {
+    margin-bottom: 19px
+}
+
+.login-popup .forget-wrap .ic-back {
+    position: absolute;
+    top: 16px;
+    left: 16px
+}
+
+.login-popup .restPassword {
+    min-height: 460px
+}
+
+.login-popup .restPassword .restFrom {
+    margin-bottom: 20px
+}
+
+.login-popup .signInFrom .btn-bx {
+    margin-top: 24px
+}
+
+.login-popup .active-notice {
+    text-align: center;
+    padding: 80px 40px !important;
+    font-size: 16px;
+    font-family: PT Sans-Regular, PT Sans;
+    font-weight: 400;
+    display: none
+}
+
+.login-popup .active-notice h4 {
+    font-family: PT Sans-Bold, PT Sans;
+    font-weight: 700;
+    margin: 24px 0 16px
+}
+
+.login-popup .active-notice h4+p {
+    line-height: 22px
+}
+
+.login-popup .active-notice .a-bx {
+    margin-top: 40px
+}
+
+.login-popup .active-notice .btn {
+    width: 180px;
+    min-width: 180px;
+    display: inline-block;
+    margin-bottom: 0
+}
+
+.login-popup .active-notice .btn-br-bl {
+    border: 1px solid #2258f6;
+    color: #2258f6;
+    background-color: #fff;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 25px
+}
+
+.login-popup .active-notice .btn-br-bl:hover {
+    background-color: #2258f6;
+    color: #fff
+}
+
+.login-popup .nigol-close {
+    display: inline-block;
+    right: 16px;
+    top: 16px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons/MC-signup-ic-close.svg) no-repeat;
+    cursor: pointer;
+    z-index: 1
+}
+
+.login-popup [data-elem=sendCode] .btn.btn-bl {
+    margin-bottom: 10%;
+    position: relative;
+    text-align: left
+}
+
+.login-popup [data-elem=sendCode] .btn.btn-bl::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 60px;
+    top: 12px;
+    z-index: 2;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.login-popup [data-elem=sendCode] .btn.btn-bl.ic-email::before {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiBvcGFjaXR5PSIwIiByeD0iNiIgd2lkdGg9IjMyIi8+PHJlY3QgZmlsbD0ibm9uZSIgaGVpZ2h0PSIxNCIgcng9IjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHdpZHRoPSIxOCIgeD0iNyIgeT0iOSIvPjxwYXRoIGQ9Im0yNS40MzkxIDEwLjYwODAwOS04LjQxNDUgNi4wNzcxNDFxLS40NTg3My4zMzEzMi0xLjAyNDYuMzMxMzItLjU2NTg3IDAtMS4wMjQ2MS0uMzMxMzJsLTguNDE0NTA4LTYuMDc3MTQxLjg3ODIzNi0xLjIxNjAxOCA4LjQxNDUxMiA2LjA3NzE0OXEuMTQ2MzcuMTA1NzEuMjkyNzQgMGw4LjQxNDUzLTYuMDc3MTQ5eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) no-repeat
+}
+
+.login-popup [data-elem=sendCode] .btn.btn-bl.ic-phone::before {
+    background: url(../images/verify/MC-verify-ic-phone.svg) no-repeat
+}
+
+@media(min-width:1200px) {
+    .login-popup .forgetFrom+p {
+        white-space: nowrap
+    }
+}
+
+@media(max-width:1199px) {
+    .login-popup .layui-row {
+        margin: 0 15px
+    }
+
+    .login-popup .des {
+        max-width: 100%
+    }
+
+    .login-popup .ic-lf {
+        display: inline-block;
+        text-align: left
+    }
+
+    .login-popup .sign-mn.f-fr {
+        float: none;
+        width: 100%
+    }
+
+    .login-popup[data-elem=signIn] h4 a,
+    .login-popup[data-elem=signUp] h4 a {
+        margin-right: 0
+    }
+
+    .login-popup .signUp-success {
+        width: 100%
+    }
+}
+
+@media(max-width:767px) {
+    .login-popup .active-notice .a-bx {
+        zoom: .9
+    }
+
+    .login-popup .sign-mn {
+        padding: 58px 40px
+    }
+}
+
+@media(max-width:479px) {
+    .login-popup .sign-mn {
+        padding: 60px 16px
+    }
+
+    .login-popup .sign-mn[data-elem=signUp] {
+        padding: 40px 16px
+    }
+
+    .login-popup .sign-mn h4 {
+        text-align: center
+    }
+
+    .login-popup .sign-mn[data-elem=signIn] h4 a,
+    .login-popup .sign-mn[data-elem=signUp] h4 a {
+        display: block;
+        float: none
+    }
+
+    .login-popup .active-notice .btn-br-bl {
+        margin-left: 0
+    }
+
+    .login-popup .bt-txt .f-margintop1,
+    .login-popup .bt-txt .f-margintop2,
+    .login-popup .signInFrom .f-margintop1,
+    .login-popup .signInFrom .f-margintop2 {
+        text-align: center !important;
+        font-size: 14px !important
+    }
+
+    .login-popup div {
+        font-size: 14px
+    }
+
+    .login-popup .ic-third {
+        margin-right: 0 !important
+    }
+
+    .login-popup .sign-mn .bt-txt p {
+        margin-top: 0
+    }
+
+    .login-popup .sign-mn .bt-txt p:last-child {
+        margin-top: 0;
+        text-align: left;
+        font-size: 12px
+    }
+}
+
+@media(max-width:350px) {
+    .login-popup .sign-mn {
+        text-align: center
+    }
+
+    .login-popup .signIn-wrap [for=stayLogged]+p {
+        float: none
+    }
+}
+
+.pending-boby p {
+    font-family: PT Sans-Regular, PT Sans;
+    font-size: 16px
+}
+
+.pending-boby .message-div {
+    margin: 20px 0
+}
+
+.pending-boby[data-elem=verifyPending] {
+    font-family: PT Sans-Regular, PT Sans
+}
+
+.pending-boby[data-elem=verifyPending] p {
+    margin: 24px 0 32px
+}
+
+.pending-boby[data-elem=verifyPending] h4 {
+    font-family: PT Sans-Bold, PT Sans
+}
+
+.pending-boby[data-elem=verifyPending] .message-div .sub-tt {
+    margin: 0;
+    margin-top: 0;
+    line-height: 20px
+}
+
+.pending-boby[data-elem=verifyPending] .message-div h6 {
+    font-family: PT Sans-Bold, PT Sans;
+    margin: 24px 0 16px !important;
+    font-size: 20px;
+    line-height: 26px !important
+}
+
+.pending-boby[data-elem=verifyPending] .pending-footer .sub-tt {
+    margin: 0;
+    margin-bottom: 32px;
+    line-height: 20px
+}
+
+.pending-footer {
+    margin: 32px 0 20px
+}
+
+.verify-wrap {
+    padding-bottom: 60px;
+    position: relative;
+    font-family: PT Sans-Regular, PT Sans;
+    width: 540px;
+    float: right
+}
+
+.verify-wrap[data-elem=verify-recovery-success] .f-fs16 {
+    color: #595959
+}
+
+.verify-wrap[data-elem=verify-recovery-success] .f-fs20 {
+    line-height: 26px
+}
+
+.verify-wrap h4 {
+    font-family: PT Sans-Bold, PT Sans
+}
+
+.verify-wrap .ic-back {
+    position: absolute;
+    top: 16px;
+    left: 16px
+}
+
+.verify-wrap .a-bx {
+    width: 76%;
+    margin: 80px auto 56px
+}
+
+.verify-wrap .a-bx .btn.btn-bl {
+    margin-bottom: 24px;
+    position: relative;
+    text-align: left
+}
+
+.verify-wrap .a-bx .btn.btn-bl::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 60px;
+    top: 12px;
+    z-index: 2;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none
+}
+
+.verify-wrap .a-bx .btn.btn-bl.ic-email::before {
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjZmZmIiBoZWlnaHQ9IjMyIiBvcGFjaXR5PSIwIiByeD0iNiIgd2lkdGg9IjMyIi8+PHJlY3QgZmlsbD0ibm9uZSIgaGVpZ2h0PSIxNCIgcng9IjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHdpZHRoPSIxOCIgeD0iNyIgeT0iOSIvPjxwYXRoIGQ9Im0yNS40MzkxIDEwLjYwODAwOS04LjQxNDUgNi4wNzcxNDFxLS40NTg3My4zMzEzMi0xLjAyNDYuMzMxMzItLjU2NTg3IDAtMS4wMjQ2MS0uMzMxMzJsLTguNDE0NTA4LTYuMDc3MTQxLjg3ODIzNi0xLjIxNjAxOCA4LjQxNDUxMiA2LjA3NzE0OXEuMTQ2MzcuMTA1NzEuMjkyNzQgMGw4LjQxNDUzLTYuMDc3MTQ5eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==) no-repeat
+}
+
+.verify-wrap .a-bx .btn.btn-bl.ic-phone::before {
+    background: url(../images/verify/MC-verify-ic-phone.svg) no-repeat
+}
+
+.verify-wrap .b-bx {
+    position: relative;
+    margin: 0
+}
+
+.verify-wrap .b-bx .btn {
+    width: 45%;
+    min-width: 120px
+}
+
+.verify-wrap .b-bx .btn-bl {
+    margin-left: 8%
+}
+
+.verify-wrap .b-bx .btn-br-bl {
+    border: 1px solid #2258f6;
+    color: #2258f6;
+    background-color: #fff;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s
+}
+
+.verify-wrap .b-bx .btn-br-bl:hover {
+    background-color: #2258f6;
+    color: #fff
+}
+
+.verify-wrap .fooder {
+    text-align: center
+}
+
+.verify-wrap .check-trust {
+    float: left;
+    margin-bottom: 20px
+}
+
+.verify-wrap .verify-body {
+    margin: 24px 0
+}
+
+.verify-wrap .verify-body .f-fs16 {
+    margin: 15px 0
+}
+
+.verify-wrap .verify-body .verify-txt {
+    margin: 16px 0 24px
+}
+
+.verify-wrap .verify-body .verify-txt .f-fs16 {
+    margin: 0
+}
+
+.verify-wrap .verify-body select {
+    width: 100%;
+    font-size: 16px;
+    font-family: PT Sans-Regular, PT Sans;
+    border: 0 solid #bbb9c3;
+    border-radius: 10px;
+    padding: 10px 30px 10px 10px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAFVBMVEUAAAC7ucO7ucO7ucO7ucO7ucO7ucNK3QB4AAAABnRSTlMAHdzd1MBhNTZLAAAAPUlEQVQI12PABUIEgASjK4ObIpAWSmEQThJgYFQzZGA0U2QQShYAiiUJArkMQEElEBcokAZUChJwAXJxAQBTfAXIAo3ghwAAAABJRU5ErkJggg==) no-repeat scroll 98% 50% #f5f7f9
+}
+
+.verify-wrap .verify-body select option {
+    font-size: 16px;
+    font-family: PT Sans-Regular, PT Sans;
+    font-weight: 400;
+    color: #000;
+    line-height: 40px;
+    height: 40px;
+    cursor: pointer
+}
+
+.verify-wrap .verify-body .gray {
+    color: gray
+}
+
+.verify-wrap .verify-body .blue {
+    color: #2258f6;
+    margin: 24px 0
+}
+
+.verify-wrap .verify-body .bold {
+    font-weight: 700
+}
+
+.verify-wrap .verify-body .inp::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin: 4px 8px;
+    z-index: 2
+}
+
+.verify-wrap .verify-body .inp.ic-phone::before {
+    background: url(../images/verify/MC-verify-ic-phone-grow.svg) no-repeat
+}
+
+.verify-wrap .verify-body .verificationCode {
+    min-width: 1px;
+    min-height: 1px
+}
+
+.verify-wrap .code,
+.verify-wrap .verifyEmail {
+    padding: 8px 10px
+}
+
+.verify-wrap .v-email,
+.verify-wrap .v-phone {
+    text-align: left;
+    display: none
+}
+
+.verify-wrap .v-email .btn-text,
+.verify-wrap .v-phone .btn-text {
+    margin: 0 100px;
+    word-wrap: break-word;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 220px;
+    display: unset;
+    line-height: 60px
+}
+
+.verify-wrap .verify-reset-success {
+    margin: 55px 0;
+    text-align: center
+}
+
+.verify-wrap .verify-reset-success img {
+    margin-bottom: 5%
+}
+
+.verify-wrap .verify-btn {
+    width: -webkit-fill-available;
+    margin: 10%
+}
+
+@media(max-width:484px) {
+    .login-popup .thirdLogin {
+        -webkit-box-orient: initial;
+        -webkit-box-direction: initial;
+        -ms-flex-direction: initial;
+        flex-direction: initial;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .login-popup .bt-txt .thirdLogin .btn-brd-gry {
+        margin: 0 auto;
+        min-width: auto
+    }
+
+    .login-popup .bt-txt .thirdLogin .btn-brd-gry.left {
+        margin-right: 10px !important
+    }
+
+    .login-popup .bt-txt .thirdLogin .btn-brd-gry.right {
+        margin-left: 10px !important
+    }
+}
+
+.login-popup {
+    font-family: PT Sans-Regular, PT Sans
+}
+
+.login-popup h4 {
+    font-family: PT Sans-Bold, PT Sans
+}
+
+.login-popup .verify-wrap {
+    float: unset !important
+}
